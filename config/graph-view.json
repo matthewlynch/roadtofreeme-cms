@@ -1,0 +1,3 @@
+{
+  "query": "*[_type in ['page', 'step', 'activity', 'category']] "
+}

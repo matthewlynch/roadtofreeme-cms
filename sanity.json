@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "project": {
+    "name": "uk-lockdown-restrictions"
+  },
+  "api": {
+    "projectId": "yjkih4l0",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "@sanity/vision",
+    "graph-view"
+  ],
+  "env": {
+    "development": {
+      "plugins": []
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
